@@ -1,0 +1,5 @@
+#!env sh
+
+CISCO_PATH=/opt/cisco/anyconnect
+${CISCO_PATH}/bin/vpn -s < credential_file
+
